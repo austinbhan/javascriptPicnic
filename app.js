@@ -17,13 +17,13 @@ cheese.addEventListener('click', () => {
 });
 
 grapes.addEventListener('click', () => {
-    grapes.classList.toggle('grapes');
+    grapes.classList.toggle('picked');
 });
 
 bread.addEventListener('click', () => {
-    bread.classList.toggle('bread');
+    bread.classList.toggle('picked');
 });
 
 watermelon.addEventListener('click', () => {
-    watermelon.addEventListener.toggle('watermelon');
+    watermelon.classList.toggle('picked');
 });
